@@ -22,3 +22,15 @@ print(type(spam), spam)
 spam = int(spam)  # convert the input to an integer
 print(type(spam), spam)
 ''' if input is integer it will show result but if input is string or float it will raise a value error '''
+
+print(type(int(99.9)))  # here it will convert float to integer
+print(type(int('99')))  # here it will convert string to integer
+
+# this will raise a ValueError because '99.9' is not a valid integer string
+# print(type(int('99.9')))
+
+# Round and abs()
+print(round(2.5555))
+print(round(2.5555, 2))  # rounding to 2 decimal places
+print(abs(-42))  # absolute value
+print(abs(42))  # absolute value
