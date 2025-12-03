@@ -7,3 +7,4 @@ flask
 requests
 xgboost
 beautifulsoup4
+sqlalchemy
